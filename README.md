@@ -1,3 +1,6 @@
+# Install Esy
+npm -g install esy
+
 # Downloads packages
 esy
 
