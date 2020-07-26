@@ -1,0 +1,5 @@
+(executable
+    (name demobase)
+    (public_name demobase)
+    (libraries base)
+)

@@ -1,0 +1,16 @@
+{
+    "name": "demobase",
+    "esy": {
+        "build": "dune build -p #{self.name}",
+        "buildDev": "refmterr dune build -p #{self.name}"
+    },
+    "dependencies": {
+        "ocaml": "*",
+        "@opam/dune": "*",
+        "@opam/base": "*"
+    },
+    "devDependencies": {
+        "refmterr": "*",
+        "@opam/merlin": "*"
+    }
+}
